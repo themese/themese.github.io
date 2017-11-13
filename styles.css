@@ -1,0 +1,22 @@
+.container-fluid {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.sideMenu {
+    position: relative;
+    opacity: 0.25;
+    transition:opacity 0.3s linear;
+}
+.sideMenu:hover {
+    opacity: 1;
+    transition:opacity 0.5s linear;
+}.sideMenu-inner{
+    position: fixed;
+}
+.panel {
+    border: 0;
+    box-shadow: none;
+}
+.panel .panel-heading {
+    background-color: white;
+}
